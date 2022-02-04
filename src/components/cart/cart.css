@@ -1,0 +1,49 @@
+.cart__container {
+  width: 30%;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  right: 0%;
+  top: 10.5%;
+  background: #fff;
+  box-shadow: 0 0 10px 10px rgba(96, 96, 96, 0.377);
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cart button {
+  background-color: #000;
+  border: none;
+  border-radius: 1rem;
+  padding: 7px 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cart h4,
+p {
+  margin-left: 1rem;
+}
+
+.cart img {
+  width: 100px;
+  height: 100px;
+}
+
+.total__price {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
